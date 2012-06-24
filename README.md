@@ -5,17 +5,21 @@ I'll admit it. I'm a bit of a stickler when it comes to my CSS. That includes sp
 
 Rather than this:
 ```css
-	#foo {color: red;}
+	#foo {margin: 1em; padding: 1em; color: red;}
 ```
 I want this:
 ```css
-	#foo {color:red;}
+	#foo {margin:1em; padding:1em; color:red;}
 ```
 
 The culprit is the "CodaCompletion.plist" file inside the "CSS.mode" package.
 _Contents > Resources > CSS.mode > Contents > Resources > CodaCompletion.plist_
 
 It used to be easy to fix this spacing issue, but as of 2.0.1, Panic changed the syntax and hence increased the difficulty level.
+
+Disclaimer
+----------
+Yes, I know everybody has their own preferences when it comes to CSS spacing, and this is mine. Please don't contact me telling me how wrong I am. I don't care and I'm not going to change my preference in this case. Thank you.
 
 How to use
 -----------
@@ -26,13 +30,13 @@ When you restart **Coda 2**, it will use the new CSS.mode located in your Librar
 
 Changelog
 ---------
-* 2012-06-24
-** ADD: Initial commit - Includes Coda 2.0 and 2.0.1 CSS.mode files
+* 2012-06-24 **ADD:** Initial commit - Includes Coda 2.0 and 2.0.1 CSS.mode files
 
 2.0.1 Syntax
 ------------
-Remove space after the colon
-Decrease first **string** value by **1**
+* Remove space after the colon
+* Decrease first **string** value by **1**
+
 ```xml
 <key>SelectionRange</key>
 <string>{25, 0}</string>
@@ -42,8 +46,9 @@ Decrease first **string** value by **1**
 
 2.0 Syntax
 ----------
-Remove space after the colon
-Change **integer** from **2** to **1**
+* Remove space after the colon
+* Change **integer** from **2** to **1**
+
 ```xml
 <key>MoveCursor</key>
 <integer>2</integer>
