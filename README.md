@@ -5,11 +5,11 @@ I'll admit it. I'm a bit of a stickler when it comes to my CSS. That includes sp
 
 Rather than this:
 ```css
-	#foo {margin: 1em; padding: 1em; color: red;}
+  .foo {margin: 1em; padding: 1em; color: red;}
 ```
 I want this:
 ```css
-	#foo {margin:1em; padding:1em; color:red;}
+  .foo {margin:1em; padding:1em; color:red;}
 ```
 
 The culprit is the "CodaCompletion.plist" file inside the "CSS.mode" package.
@@ -30,6 +30,7 @@ When you restart **Coda 2**, it will use the new CSS.mode located in your Librar
 
 Changelog
 ---------
+* 2015-04-10 **UPDATE** Added version 2.5.8
 * 2012-06-24 **ADD:** Initial commit - Includes Coda 2.0 and 2.0.1 CSS.mode files
 
 2.0.1 Syntax
