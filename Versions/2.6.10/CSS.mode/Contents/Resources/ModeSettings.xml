@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <recognition>
+        <extension>css</extension>
+        <extension>sss</extension>
+    </recognition>
+    <color>0.803, 0.627, 0.931</color>
+</settings>

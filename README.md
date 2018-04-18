@@ -30,7 +30,8 @@ When you restart **Coda 2**, it will use the new CSS.mode located in your Librar
 
 Changelog
 ---------
-* 2015-04-10 **UPDATE** Added version 2.5.8
+* 2018-04-18 **UPDATE** Add version 2.6.10
+* 2015-04-10 **UPDATE** Add version 2.5.8
 * 2012-06-24 **ADD:** Initial commit - Includes Coda 2.0 and 2.0.1 CSS.mode files
 
 2.0.1 Syntax
